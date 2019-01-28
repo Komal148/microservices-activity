@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${CONFIG_SERVER_URL:https://github.com/Aishwarya-ga/config-server-repo}
+
+server:
+  port: 8888
