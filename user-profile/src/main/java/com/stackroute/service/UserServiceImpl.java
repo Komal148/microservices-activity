@@ -2,10 +2,10 @@ package com.stackroute.service;
 
 import com.stackroute.Exceptions.UserAlreadyFoundException;
 import com.stackroute.Exceptions.UserNotFoundException;
-import domain.User;
+import com.stackroute.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.UserRepository;
+import com.stackroute.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

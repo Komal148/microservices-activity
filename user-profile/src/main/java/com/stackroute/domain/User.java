@@ -1,4 +1,4 @@
-package domain;
+package com.stackroute.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

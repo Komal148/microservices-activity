@@ -1,6 +1,6 @@
-package repository;
+package com.stackroute.repository;
 
-import domain.User;
+import com.stackroute.domain.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

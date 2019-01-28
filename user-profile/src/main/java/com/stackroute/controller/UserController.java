@@ -4,7 +4,7 @@ package com.stackroute.controller;
 import com.stackroute.Exceptions.UserAlreadyFoundException;
 import com.stackroute.Exceptions.UserNotFoundException;
 import com.stackroute.service.UserService;
-import domain.User;
+import com.stackroute.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +20,7 @@ public class UserController {
     private UserService userService;
 
     @Autowired
-    public UserController(UserService musicService) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 

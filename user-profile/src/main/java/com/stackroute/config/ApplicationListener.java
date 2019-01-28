@@ -1,13 +1,14 @@
 package com.stackroute.config;
 
 import com.stackroute.service.UserService;
-import domain.User;
+import com.stackroute.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
+import com.stackroute.repository.UserRepository;
 
 
 //A Java class decorated with @Component is found during classpath scanning and registered
@@ -48,8 +49,8 @@ public class ApplicationListener implements org.springframework.context.Applicat
     //A constructor @Autowired annotation indicates that the constructor should be autowired when creating the bean,
     // even if no <constructor-arg> elements are used while configuring the bean in XML file
     @Autowired
-    public ApplicationListener(UserService musicService) {
-        this.userService = musicService;
+    public ApplicationListener(UserService userService) {
+        this.userService = userService;
     }
 
     //Application events are available since the very beginning of the Spring framework

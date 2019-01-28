@@ -2,7 +2,7 @@ package com.stackroute.service;
 
 import com.stackroute.Exceptions.UserAlreadyFoundException;
 import com.stackroute.Exceptions.UserNotFoundException;
-import domain.User;
+import com.stackroute.domain.User;
 
 import java.util.List;
 import java.util.Optional;
