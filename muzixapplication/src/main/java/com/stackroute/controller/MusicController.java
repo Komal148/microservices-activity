@@ -30,6 +30,7 @@ public class MusicController {
     @PostMapping("music")
     public ResponseEntity<?> saveMusic(@RequestBody Music music) throws TrackAlreadyFoundException
     {
+        System.out.println("inside the post method of the MusicController");
         ResponseEntity responseEntity;
 
             musicService.saveMusic(music);

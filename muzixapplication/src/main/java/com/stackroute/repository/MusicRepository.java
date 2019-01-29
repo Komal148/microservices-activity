@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
+
 public interface MusicRepository extends MongoRepository<Music,Integer> {
 
     //this is used to select trackByName
