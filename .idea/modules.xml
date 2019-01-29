@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservices-activity.iml" filepath="$PROJECT_DIR$/.idea/Microservices-activity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-service/api-gateway-service.iml" filepath="$PROJECT_DIR$/api-gateway-service/api-gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-registry-service/eureka-registry-service.iml" filepath="$PROJECT_DIR$/eureka-registry-service/eureka-registry-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muzixapplication/muzixapplication.iml" filepath="$PROJECT_DIR$/muzixapplication/muzixapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-config-server/spring-config-server.iml" filepath="$PROJECT_DIR$/spring-config-server/spring-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-profile/user-profile.iml" filepath="$PROJECT_DIR$/user-profile/user-profile.iml" />
+    </modules>
+  </component>
+</project>
